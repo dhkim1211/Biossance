@@ -94,6 +94,9 @@ p, a {
 @media screen and (min-width: 768px) {
   .nav-mobile {
     display: none; } }
+.btn {
+  border: 1px solid #eee; }
+
 .btn-circle {
   width: 40px;
   height: 40px;
@@ -103,6 +106,10 @@ p, a {
   font-weight: 700;
   line-height: 1.428571429;
   border-radius: 20px; }
+
+.btn--white {
+  background-color: #fff;
+  color: #333; }
 
 .btn--yellow {
   background-color: #fc0;
